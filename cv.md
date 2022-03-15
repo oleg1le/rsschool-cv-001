@@ -22,3 +22,10 @@ Stagnation in the economy prompts to look for new opportunities for stable incom
 Programming seems like a great idea. 
 
 My goal is to acquire knowledge and practical skills in front-end development.
+
+### Skils
+
++ **HTML**
++ **CSS**
++ **JavaScript (basic)**
+
