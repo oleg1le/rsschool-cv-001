@@ -30,3 +30,16 @@ My goal is to acquire knowledge and practical skills in front-end development.
 + **CSS**
 + **JavaScript (basic)**
 
+****
+### Code example
+
+
+
+``` javascript
+function generateThead(tableHeading) {
+        const thead = document.createElement("thead");
+        const tr = generateTr(tableHeading, "th");
+        thead.appendChild(tr);
+        return thead;
+    } 
+```
