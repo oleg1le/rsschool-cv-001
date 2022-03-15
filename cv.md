@@ -43,3 +43,12 @@ function generateThead(tableHeading) {
         return thead;
     } 
 ```
+
+****
+
+### Education and courses:
+  #### JavaScript:
+ + JavaScript/Front-end. Stage 0
+ + https://learn.javascript.ru/
+ + https://doka.guide/
+ + https://www.udemy.com/course/modern-javascript-from-beginning/ (began to study) Современный JavaScript + Vue с нуля на реальных проектах
