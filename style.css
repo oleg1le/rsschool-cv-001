@@ -49,3 +49,151 @@ header {
   font-size: 17px;
   color: #e5e5e5;
 }
+
+.main__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: calc(50% - 30px);
+  padding-left: 15px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #272727;
+}
+
+.section__avatar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 50px;
+  border-bottom: 10px solid #272727;
+  padding: 50px 30px 35px;
+}
+
+.section__profile__avatar {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+.section__profile__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__profile__title h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 12px;
+  color: #05386b;
+}
+
+.section__profile__title h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 6px;
+  color: #05386b;
+}
+
+.section__list {
+  padding: 0px;
+  text-align: left;
+  list-style: none;
+}
+
+.section__title {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 5px;
+  color: #2c3531;
+}
+
+.section__item {
+  display: flex;
+}
+
+.contact__image {
+  margin-top: 4px;
+  margin-right: 15px;
+}
+
+.contact__image__location {
+  background: url(./assets/svg/map.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.contact__image__github {
+  background: url(./assets/svg/github.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.contact__image__email {
+  background: url(./assets/svg/email.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.contact__image__telegram {
+  background: url(./assets/svg/telegram.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.contact__image__phone {
+  background: url(./assets/svg/phone.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.contact__text {
+  transition: 0.3s;
+}
+
+.contact__text a:hover {
+  color: #a33427;
+}
+
+.main__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #2f4445;
+}
+
+pre {
+  margin-left: -120px;
+  font-size: 16px;
+}
+
+span {
+  font-weight: 700;
+}
