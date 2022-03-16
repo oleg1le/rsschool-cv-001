@@ -197,3 +197,42 @@ pre {
 span {
   font-weight: 700;
 }
+
+.footer {
+  background-color: #41b3a3;
+}
+
+.section__courses,
+.section__language {
+  border-bottom: 0;
+}
+
+.section__list__footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__github {
+  background: url(./assets/svg/github_logo.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 121px;
+  height: 72px;
+}
+
+.footer__rsschool {
+  background: url(./assets/svg/rs_school_js.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 121px;
+  height: 72px;
+}
+
+.footer__year {
+  font-size: 28px;
+  font-weight: 700;
+}
