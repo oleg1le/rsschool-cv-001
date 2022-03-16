@@ -236,3 +236,16 @@ span {
   font-size: 28px;
   font-weight: 700;
 }
+
+input[type="checkbox"] {
+  display: none;
+}
+.nav label {
+  display: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav label:hover {
+  color: #553d67;
+}
